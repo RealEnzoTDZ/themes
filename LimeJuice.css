@@ -1,0 +1,211 @@
+#app-mount .app-2rEoOp {
+  background-color: #55FF57;
+  background-size: cover;
+}
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
+  background-color: rgba(0, 0, 0, .33);
+  color: #fff;
+}
+
+.theme-dark .children-19S4PO:after {
+  background: none;
+}
+
+.theme-dark .layers-3iHuyZ {
+  background: rgba(0, 15, 0, 0.7);
+}
+.theme-dark .typing-2GQL18,
+.scroller-305q3I,
+.theme-dark .layer-3QrUeG,
+.theme-dark .messagesWrapper-3lZDfY,
+.messages-3amgkR,
+.container-PNkimc,
+.sidebar-2K8pFh,
+.container-3w7J-x,
+.da-container,
+.theme-dark .wrapper-1Rf91z,
+.theme-dark .scroller-2TZvBN,
+.container-2lgZY8,
+.theme-dark .chat-3bRxxu, 
+.theme-dark .chat-3bRxxu form, 
+.theme-dark .content-yTz4x3,
+.theme-dark .contentRegion-3nDuYy,
+.contentRegionScroller-26nc1e,
+.theme-dark .sidebarRegion-VFTUkN,
+.sidebarRegionScroller-3MXcoP,
+.theme-dark .standardSidebarView-3F1I7i,
+.theme-dark .container-1D34oG,
+.theme-dark .peopleList-3c4jOR,
+.scroller-1IIF0A,
+.privateChannels-1nO12o,
+.scroller-1JbKMe,
+.applicationStore-1pNvnv,
+.scroller-9moviB {
+  background-color: transparent;
+}
+
+.theme-dark .container-1r6BKw {
+  background: transparent;
+  box-shadow: none;
+  color: white;
+}
+
+.theme-dark .members-1998pB {
+  background-color: transparent;
+}
+
+.members-1998pB>div {
+  background-color: transparent;
+}
+
+
+.tree-3tCaw8,
+ .da-tree {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.wordmarkWindows-1v0lYD {
+  color: white;
+  background: transparent;
+}
+
+.typeWindows-1za-n7 {
+  background: #3B454B;
+}
+
+.wordmark-2iDDfm:after {
+  content: "LimeJuice";
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  width: 4000px;
+  top: 5px;
+  padding-left: -3px;
+  font-family: "Discord";
+}
+
+.wordmark-2iDDfm > svg {
+  width: 0px;
+}
+
+.homeIcon-tEMBK1 {
+  background: url('https://github.com/Vanthanyx/LimeJuice/blob/main/Lime_Juice_2.png?raw=true');
+  background-size: contain;
+  position: center;
+  width: 125%;
+  height: 105%;
+  margin-top: -2px;
+}
+
+.homeIcon-tEMBK1 path {
+  fill: transparent;
+}
+
+.withFrame-haYltI {
+    border-bottom: 2px solid;
+    border-color: magenta;
+    animation: rainbow 4s linear infinite;
+}
+
+@keyframes rainbow {
+    0%, 100% {
+        border-color: darkgreen;
+    }
+    25% {
+        border-color: green;
+    }
+    50% {
+        border-color: lightgreen;
+    }
+    75% {
+        border-color: lime;
+    }
+}
+
+.panels-j1Uci_ {
+  background: rgba(0,0,0,.3);
+  border-radius: 0px 12px 0px 0px;
+}
+
+.unread-1xRYoj {
+    background: rgb(20, 175, 20);
+}
+
+.mention-1f5kbO {
+    background: rgb(0, 200, 0);
+}
+
+.channelTextArea-2VhZ6z{
+  --bw: 2px;
+}
+
+@keyframes textbarrgb {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+.channelTextArea-2VhZ6z::after {
+  content: "";
+  position: absolute;
+  border-radius: calc(8px + (var(--bw) / 4));
+  top: calc(var(--bw) * -1);
+  left: calc(var(--bw) * -1);
+  width: calc(100% + var(--bw) * 2);
+  height: calc(100% + var(--bw) * 2);
+  background: linear-gradient(
+    45deg,
+    #66ff66,
+    #009900,
+    #00ff00,
+    #33ff33,
+    #66ff66
+  );
+  animation: textbarrgb 5s ease infinite;
+  background-size: 400%;
+}
+
+.scrollableContainer-2NUZem {
+  z-index: 1;
+  position: relative;
+  padding: 0;
+}
+
+.actions-NlfMQc,
+.colorHeaderSecondary-3Sp3Ft {
+  z-index: 1;
+}
+
+.container-3w7J-x {
+    background: rgba(10,10,10,.05);
+}
+
+.scroller-1JbKMe {
+    background: rgba(10,10,10,.05);
+}
+
+.form-2fGMdU:before {
+    background: transparent !important;
+}
+
+.button-14-BFJ:hover:nth-child(3) {
+    animation: rotate 0.5s ease-in-out;
+    -webkit-transition-delay: now;
+    -webkit-animation-timing-function: linear;
+    background-color: transparent;
+    
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+
+}
